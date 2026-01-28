@@ -1,0 +1,41 @@
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-element {
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    text-indent: 20px;
+}
+
+.error {
+    color: #ff7373;
+}
+
+.button {
+    border: none;
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    color: white;
+
+    &:hover {
+        background-color: #676767;
+        color: white;
+        cursor: pointer;
+    }
+
+    &:disabled {
+        background-color: #676767;
+        color: #bbbbbb;
+    }
+}
